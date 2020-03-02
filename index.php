@@ -1,1 +1,1 @@
-<?php header('Location: /index.hmtl'); ?>
+<?php header("Location: /index.hmtl"); ?>
