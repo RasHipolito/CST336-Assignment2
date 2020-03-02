@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="app.css">
+        <title>IQ Quiz</title>
+    </head>
+    <body onload="hidePages()">
+        <div id = "FirstPage">
+            <h1>Simple IQ Quiz</h1>
+            <p>This quiz will test your knowledge.</p>
+            <button id="Begin" name="begin-btn" onclick="begin()" label="Begin">Begin</button>
+        </div>
+        <div id = "QuizPage">
+            <p id="question">Question</p>
+            <p><input id="answer1" type="radio" name="answer" value="1"><label for="answer1"><span id = "answerPos1">Answer1</span></label></p>
+
+            <p><input id="answer2" type="radio" name="answer" value="2"><label for="answer2"><span id = "answerPos2">Answer2</span></label></p>
+                    
+            <p><input id="answer3" type="radio" name="answer" value="3"><label for="answer3"><span id = "answerPos3">Answer3</span></label></p>
+                    
+            <p><input id="answer4" type="radio" name="answer" value="4"><label for="answer4"><span id = "answerPos4">Answer4</span></label></p>
+            <button id="next" onclick="checkAnswer()">Next</button>
+        </div> 
+        <div id="Results">
+            <h3><span>Results</span></h3>
+            <p id="ScoringSys">If you received a score of: 0 - Better luck next time!</p>
+            <p id="ScoringSys">If you received a score of: 1 - Still room for improvement!</p>
+            <p id="ScoringSys">If you received a score of: 2 - You're getting there!</p>
+            <p id="ScoringSys">If you received a score of: 3 - That's pretty good!</p>
+            <p id="ScoringSys">If you received a score of: 4 - Almost perfect!</p>
+            <p id="ScoringSys">If you received a score of: 5 - You're a genuis!</p>
+            <p id="Score"></p>
+        </div>
+    <script src="app.js"></script>    
+    </body>
+    <footer>
+        <p>This is just for fun (not meant to be taken literal)</p>
+    </footer>
+</html>

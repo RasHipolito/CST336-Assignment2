@@ -1,0 +1,49 @@
+body {
+    background-color: gray;
+}
+#FirstPage{
+    text-align:center;
+    background-color:black;
+    border: 10px inset lightgreen;
+    color:white;
+}
+#answerPos1{
+    text-align:center;
+}
+#question {
+    background-color:black;
+    color:white;
+    width:300px;
+    padding: 20px;
+    margin: 20px;
+    border: 10px inset lightgreen;
+}
+#Score{
+    background-color:black;
+    color:white;
+    font-size: 40px;
+    width:300px;
+    padding: 20px;
+    border: 10px inset lightgreen;
+    text-align:center;
+    
+}
+label {
+    color:white;
+    background-color:black;
+    border: 2px outset green;
+}
+input[type="radio"] {
+    padding:5px;
+    margin:5px;
+}
+footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    text-align:center;
+    background-color:white;
+    width: 100%;
+}
+
+
